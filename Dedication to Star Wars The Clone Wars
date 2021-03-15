@@ -1,0 +1,282 @@
+<!---By Martin De Jonge, note was made for Sololearn only and I did not test it on a browser.--->
+
+
+<!---Note some images may take a while to load, if you think this code deserves a upvote please do so and I am still new to HTML/CSS and JS any advice would be great.--->
+
+<html>
+    <head> 
+        <title>Season 7!</title> 
+            <script src="Starwars.js"></script>
+        <link rel="stylesheet" href="Starwars.css">
+        
+        <style>
+          .images {
+    
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+          }
+
+          .knoppie {
+
+              color: black;
+              padding: 16px 32px;
+              text-align: center;
+          }
+
+          .a{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #0000FF;
+          }
+
+          .a:hover {
+
+              background-color: #0000FF;
+              color: white;
+          }
+
+          .b{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #0000FF;
+          }
+
+          .b:hover {
+
+              background-color: #0000FF;
+              color: white;
+          }
+
+          .c{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #0000FF;
+          }
+
+          .c:hover {
+
+              background-color: #0000FF;
+              color: white;
+          }
+
+          .d{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #0000FF;
+          }
+
+          .d:hover {
+
+              background-color: #0000FF;
+              color: white;
+          }
+
+          .e{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #0000FF;
+          }
+
+          .e:hover {
+
+              background-color: #0000FF;
+              color: white;
+          }
+
+          .hero{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #4CAF50;
+          }
+
+          .hero:hover {
+
+              background-color: #4CAF50;
+              color: white;
+          }
+
+          .f{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #FF0000;
+          }
+
+          .f:hover {
+
+              background-color: #FF0000;
+              color: white;
+          }
+
+          .g{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #FF0000;
+          }
+
+          .g:hover {
+
+              background-color: #FF0000;
+              color: white;
+          }
+
+          .h{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #FF0000;
+          }
+
+          .h:hover {
+
+              background-color: #FF0000;
+              color: white;
+          }
+
+          .i{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #FF0000;
+          }
+
+          .i:hover {
+
+              background-color: #FF0000;
+              color: white;
+          }
+
+          .j{
+
+              background-color: black; 
+              color: white; 
+              border: 2px solid #FF0000;
+          }
+
+          .j:hover {
+
+              background-color: #FF0000;
+              color: white;
+          }
+        </style>
+        
+    </head>
+    <body>
+    
+        <script>
+          alert("This is something very simple I made in dedication to Star Wars The Clone Wars since a seventh season is on the way and I can't wait, the Clone Wars series introduced Star Wars to me, and in my opinion is by far the best Star Wars piece you can get the movies does not come close to it ^^");
+          alert("By Martin De Jonge");
+
+          window.onload = function()
+          {
+              img.style.height = "300";
+              img.style.width = "300";
+          };
+
+          function changeImageA()
+          {
+          var img = document.getElementById("img");
+          img.src="http://www.getwallpapers.com/wallpaper/full/1/9/6/247883.jpg";
+          return false;
+          }
+
+          function changeImageB()
+          {
+          var img = document.getElementById("img");
+          img.src="http://www.freewebs.com/empirelovers/CloneWarsII-5copy.jpg";
+          return false;
+          }
+
+          function changeImageC()
+          {
+          var img = document.getElementById("img");
+          img.src="https://stmed.net/sites/default/files/star-wars%3A-the-clone-wars-wallpapers-31678-7089104.jpg";
+          return false;
+          }
+
+          function changeImageD()
+          {
+          var img = document.getElementById("img");
+          img.src="https://starwarsblog.starwars.com/wp-content/uploads/2015/10/clonecommand0.jpg";
+          return false;
+          }
+
+          function changeImageE()
+          {
+          var img = document.getElementById("img");
+          img.src="https://vignette.wikia.nocookie.net/starwars/images/4/40/Clones_maridun.jpg";
+          return false;
+          }
+
+          function changeImageTheBest() //Sorry if this seems like too much or 'cheesy' but I felt sorry for 99 and his final moments was really awesome to me. He is a hero to me.
+          {
+          var img = document.getElementById("img");
+          img.src="https://vignette.wikia.nocookie.net/starwarsrepublicclonetroopers/images/0/03/99.png";
+          return false;
+          }
+
+          function changeImageF()
+          {
+          var img = document.getElementById("img");
+          img.src="https://wallpapercave.com/wp/wp2346283.jpg";
+          return false;
+          }
+
+          function changeImageG()
+          {
+          var img = document.getElementById("img");
+          img.src="https://vignette.wikia.nocookie.net/battle-droids/images/5/50/Commando_droid_clonewars4.jpg";
+          return false;
+          }
+
+          function changeImageH()
+          {
+          var img = document.getElementById("img");
+          img.src="https://vignette.wikia.nocookie.net/starwars/images/1/10/Homing_Spider_Droid.png";
+          return false;
+          }
+
+          function changeImageI()
+          {
+          var img = document.getElementById("img");
+          img.src="https://vignette.wikia.nocookie.net/starwars/images/d/de/B1s_Christophsis.png/revision/latest?cb=20121013060747";
+          return false;
+          }
+
+          function changeImageJ()
+          {
+          var img = document.getElementById("img");
+          img.src="https://vignette.wikia.nocookie.net/starwars/images/5/51/88thFlight.png";
+          return false;
+          }
+        </script>
+    
+        <div style="background-color:black;">
+        
+        <button onclick="changeImageA();" class="knoppie a">01</button>
+        <button onclick="changeImageB();" class="knoppie b">02</button>
+        <button onclick="changeImageC();" class="knoppie c">03</button>
+        <button onclick="changeImageD();" class="knoppie d">04</button>
+        <button onclick="changeImageE();" class="knoppie e">05</button>
+        <button onclick="changeImageTheBest();" class="knoppie hero">99</button>
+        <button onclick="changeImageF();" class="knoppie f">01</button>
+        <button onclick="changeImageG();" class="knoppie g">02</button>
+        <button onclick="changeImageH();" class="knoppie h">03</button>
+        <button onclick="changeImageI();" class="knoppie i">04</button>
+        <button onclick="changeImageJ();" class="knoppie j">05</button>
+    
+        <img src="http://www.getwallpapers.com/wallpaper/full/1/9/6/247883.jpg" id="img" alt="the_pic" class="images"/>
+        
+        </div>
+        
+        
+    </body>
+</html>
